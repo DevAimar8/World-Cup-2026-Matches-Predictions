@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Predicción del Mundial de Aimar</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="app-shell page-bracket">
+    <section class="bracket-shell" id="bracketShell">
+      <header class="app-topbar">
+        <div class="brand-block">
+          <span class="brand-kicker">Análisis · xG · Eliminatorias</span>
+          <h1>Predicción del Mundial de Aimar</h1>
+          <p id="updatedAt">Cargando bracket...</p>
+        </div>
+        <div class="actions">
+          <button id="downloadBtn" class="ghost-btn" type="button">Descargar SVG</button>
+          <button id="resetBtn" class="danger-btn" type="button">Reiniciar</button>
+        </div>
+      </header>
+
+      <div class="round-labels">
+        <span>16avos</span>
+        <span>8avos</span>
+        <span>4tos</span>
+        <span>Semis</span>
+        <span>Final</span>
+        <span>Semis</span>
+        <span>4tos</span>
+        <span>8avos</span>
+        <span>16avos</span>
+      </div>
+
+      <section class="bracket-grid" id="bracketGrid" aria-label="Cuadro de eliminatorias"></section>
+    </section>
+
+    <aside class="side-help glass-panel">
+      <div class="side-card-title">
+        <span class="status-dot"></span>
+        <h2>Editor local</h2>
+      </div>
+      <p>Haz clic en cualquier partido para abrir una pantalla limpia de predicción, simulación y resultado real.</p>
+      <div class="help-steps">
+        <div><strong>1</strong><span>Simula con el modelo y avanza automáticamente al ganador.</span></div>
+        <div><strong>2</strong><span>Cuando haya resultado real, introdúcelo y bloquea el partido.</span></div>
+        <div><strong>3</strong><span>El bracket se guarda en <code>data/bracket_state.json</code>.</span></div>
+      </div>
+      <p class="note">La predicción principal usa el marcador más probable del modelo. Si hay empate, la eliminatoria se decide por prórroga o penaltis.</p>
+    </aside>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

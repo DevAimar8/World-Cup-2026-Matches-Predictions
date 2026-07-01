@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Predicción del Mundial de Aimar · Partido</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="match-page">
+    <header class="match-header">
+      <div class="match-header-left">
+        <a class="back-link" href="/">← Volver al bracket</a>
+        <div>
+          <p class="eyebrow">Predicción del Mundial de Aimar</p>
+          <h1 id="matchTitle">Cargando partido...</h1>
+          <p id="matchSubtitle">Predicción del modelo, xG, editor de simulación y guardado de resultado real.</p>
+        </div>
+      </div>
+      <span class="pill">Editor de partido</span>
+    </header>
+
+    <section class="match-layout">
+      <article class="editor-card hero-card" id="matchCard"></article>
+      <article class="editor-card" id="predictionCard"></article>
+      <article class="editor-card full" id="realResultCard"></article>
+    </section>
+  </main>
+
+  <script src="/static/partido.js"></script>
+</body>
+</html>

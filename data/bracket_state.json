@@ -1,0 +1,4307 @@
+{
+  "version": 2,
+  "title": "Fase Eliminatoria",
+  "updated_at": "2026-07-01T17:30:21+00:00",
+  "matches": {
+    "m73": {
+      "id": "m73",
+      "col": 1,
+      "row": 1,
+      "label": "GM73",
+      "a": "germany",
+      "b": "paraguay",
+      "scoreA": 1,
+      "scoreB": 1,
+      "penA": 3,
+      "penB": 4,
+      "winner": "paraguay",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "penaltis",
+      "next": "m89",
+      "nextSlot": "a"
+    },
+    "m75": {
+      "id": "m75",
+      "col": 1,
+      "row": 4,
+      "label": "GM75",
+      "a": "france",
+      "b": "sweden",
+      "scoreA": 3,
+      "scoreB": 0,
+      "winner": "france",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "90 minutos",
+      "next": "m89",
+      "nextSlot": "b"
+    },
+    "m77": {
+      "id": "m77",
+      "col": 1,
+      "row": 7,
+      "label": "GM77",
+      "a": "south-africa",
+      "b": "canada",
+      "scoreA": 0,
+      "scoreB": 1,
+      "winner": "canada",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "90 minutos",
+      "next": "m90",
+      "nextSlot": "a"
+    },
+    "m79": {
+      "id": "m79",
+      "col": 1,
+      "row": 10,
+      "label": "GM79",
+      "a": "netherlands",
+      "b": "morocco",
+      "scoreA": 1,
+      "scoreB": 1,
+      "penA": 2,
+      "penB": 3,
+      "winner": "morocco",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "penaltis",
+      "next": "m90",
+      "nextSlot": "b"
+    },
+    "m81": {
+      "id": "m81",
+      "col": 1,
+      "row": 13,
+      "label": "GM81",
+      "a": "portugal",
+      "b": "croatia",
+      "next": "m93",
+      "nextSlot": "a",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "portugal",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "portugal",
+          "nombre": "Portugal",
+          "codigo": "POR",
+          "bandera": "🇵🇹",
+          "flag_url": "https://flagcdn.com/w80/pt.png",
+          "rating": 1945
+        },
+        "equipo_b": {
+          "slug": "croatia",
+          "nombre": "Croacia",
+          "codigo": "CRO",
+          "bandera": "🇭🇷",
+          "flag_url": "https://flagcdn.com/w80/hr.png",
+          "rating": 1852
+        },
+        "xg": {
+          "a": 1.58,
+          "b": 1.12
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.58,
+            "b": 1.12
+          },
+          "prorroga_condicional": {
+            "a": 0.47,
+            "b": 0.34
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.72,
+            "b": 1.21
+          },
+          "diferencia_90": 0.46,
+          "diferencia_total": 0.5,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.4656,
+          "empate": 0.2811,
+          "b": 0.2533
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6319,
+          "clasifica_b": 0.3681,
+          "prorroga": 0.2811,
+          "gana_prorroga_a_condicional": 0.2905,
+          "empate_prorroga_condicional": 0.5186,
+          "gana_prorroga_b_condicional": 0.1908,
+          "penaltis": 0.1458,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1343
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1343
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1343
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.094
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0909
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.0842
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0827
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "portugal",
+            "nombre": "Portugal",
+            "codigo": "POR",
+            "bandera": "🇵🇹",
+            "flag_url": "https://flagcdn.com/w80/pt.png",
+            "rating": 1945
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "portugal",
+            "nombre": "Portugal",
+            "codigo": "POR",
+            "bandera": "🇵🇹",
+            "flag_url": "https://flagcdn.com/w80/pt.png",
+            "rating": 1945
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "portugal",
+          "nombre": "Portugal",
+          "codigo": "POR",
+          "bandera": "🇵🇹",
+          "flag_url": "https://flagcdn.com/w80/pt.png",
+          "rating": 1945
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Portugal aparece con más opciones de clasificarse. El modelo estima 1.58-1.12 xG a 90 minutos y 1.72-1.21 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Portugal gana el 46.6%, el empate aparece en el 28.1% y Croacia gana el 25.3%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:27:59+00:00"
+    },
+    "m83": {
+      "id": "m83",
+      "col": 1,
+      "row": 16,
+      "label": "GM83",
+      "a": "spain",
+      "b": "austria",
+      "next": "m93",
+      "nextSlot": "b",
+      "scoreA": 2,
+      "scoreB": 0,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 0,
+      "penA": null,
+      "penB": null,
+      "winner": "spain",
+      "method": "90 minutos",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "equipo_b": {
+          "slug": "austria",
+          "nombre": "Austria",
+          "codigo": "AUT",
+          "bandera": "🇦🇹",
+          "flag_url": "https://flagcdn.com/w80/at.png",
+          "rating": 1718
+        },
+        "xg": {
+          "a": 2.08,
+          "b": 0.62
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 2.08,
+            "b": 0.62
+          },
+          "prorroga_condicional": {
+            "a": 0.62,
+            "b": 0.19
+          },
+          "total_eliminatoria_esperado": {
+            "a": 2.21,
+            "b": 0.66
+          },
+          "diferencia_90": 1.46,
+          "diferencia_total": 1.55,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.7038,
+          "empate": 0.2088,
+          "b": 0.0874
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.8488,
+          "clasifica_b": 0.1512,
+          "prorroga": 0.2088,
+          "gana_prorroga_a_condicional": 0.4056,
+          "empate_prorroga_condicional": 0.4982,
+          "gana_prorroga_b_condicional": 0.0962,
+          "penaltis": 0.104,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1454
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1454
+        },
+        "marcadores_top": [
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.1454
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.1286
+          },
+          {
+            "a": 3,
+            "b": 0,
+            "probabilidad": 0.1008
+          },
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.098
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0902
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "España aparece con más opciones de clasificarse. El modelo estima 2.08-0.62 xG a 90 minutos y 2.21-0.66 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, España gana el 70.4%, el empate aparece en el 20.9% y Austria gana el 8.7%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:28:06+00:00"
+    },
+    "m85": {
+      "id": "m85",
+      "col": 1,
+      "row": 19,
+      "label": "GM85",
+      "a": "usa",
+      "b": "bosnia-and-herzegovina",
+      "next": "m94",
+      "nextSlot": "a",
+      "scoreA": 2,
+      "scoreB": 0,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 0,
+      "penA": null,
+      "penB": null,
+      "winner": "usa",
+      "method": "90 minutos",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "usa",
+          "nombre": "Estados Unidos",
+          "codigo": "USA",
+          "bandera": "🇺🇸",
+          "flag_url": "https://flagcdn.com/w80/us.png",
+          "rating": 1826
+        },
+        "equipo_b": {
+          "slug": "bosnia-and-herzegovina",
+          "nombre": "Bosnia y Herzegovina",
+          "codigo": "BIH",
+          "bandera": "🇧🇦",
+          "flag_url": "https://flagcdn.com/w80/ba.png",
+          "rating": 1602
+        },
+        "xg": {
+          "a": 1.91,
+          "b": 0.79
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.91,
+            "b": 0.79
+          },
+          "prorroga_condicional": {
+            "a": 0.57,
+            "b": 0.24
+          },
+          "total_eliminatoria_esperado": {
+            "a": 2.05,
+            "b": 0.85
+          },
+          "diferencia_90": 1.12,
+          "diferencia_total": 1.2,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.6249,
+          "empate": 0.2403,
+          "b": 0.1348
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.7834,
+          "clasifica_b": 0.2166,
+          "prorroga": 0.2403,
+          "gana_prorroga_a_condicional": 0.3655,
+          "empate_prorroga_condicional": 0.5075,
+          "gana_prorroga_b_condicional": 0.1269,
+          "penaltis": 0.122,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1226
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1226
+        },
+        "marcadores_top": [
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.1226
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.1152
+          },
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1146
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0969
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0804
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "usa",
+            "nombre": "Estados Unidos",
+            "codigo": "USA",
+            "bandera": "🇺🇸",
+            "flag_url": "https://flagcdn.com/w80/us.png",
+            "rating": 1826
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "usa",
+            "nombre": "Estados Unidos",
+            "codigo": "USA",
+            "bandera": "🇺🇸",
+            "flag_url": "https://flagcdn.com/w80/us.png",
+            "rating": 1826
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "usa",
+          "nombre": "Estados Unidos",
+          "codigo": "USA",
+          "bandera": "🇺🇸",
+          "flag_url": "https://flagcdn.com/w80/us.png",
+          "rating": 1826
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Estados Unidos aparece con más opciones de clasificarse. El modelo estima 1.91-0.79 xG a 90 minutos y 2.05-0.85 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Estados Unidos gana el 62.5%, el empate aparece en el 24.0% y Bosnia y Herzegovina gana el 13.5%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:28:14+00:00"
+    },
+    "m87": {
+      "id": "m87",
+      "col": 1,
+      "row": 22,
+      "label": "GM87",
+      "a": "belgium",
+      "b": "senegal",
+      "next": "m94",
+      "nextSlot": "b",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 5,
+      "penB": 4,
+      "winner": "belgium",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "belgium",
+          "nombre": "Bélgica",
+          "codigo": "BEL",
+          "bandera": "🇧🇪",
+          "flag_url": "https://flagcdn.com/w80/be.png",
+          "rating": 1878
+        },
+        "equipo_b": {
+          "slug": "senegal",
+          "nombre": "Senegal",
+          "codigo": "SEN",
+          "bandera": "🇸🇳",
+          "flag_url": "https://flagcdn.com/w80/sn.png",
+          "rating": 1848
+        },
+        "xg": {
+          "a": 1.43,
+          "b": 1.28
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.43,
+            "b": 1.28
+          },
+          "prorroga_condicional": {
+            "a": 0.43,
+            "b": 0.38
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.55,
+            "b": 1.39
+          },
+          "diferencia_90": 0.15,
+          "diferencia_total": 0.16,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.39,
+          "empate": 0.2891,
+          "b": 0.3209
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.5457,
+          "clasifica_b": 0.4543,
+          "prorroga": 0.2891,
+          "gana_prorroga_a_condicional": 0.2557,
+          "empate_prorroga_condicional": 0.5207,
+          "gana_prorroga_b_condicional": 0.2236,
+          "penaltis": 0.1505,
+          "penaltis_a_condicional": 0.5431,
+          "penaltis_b_condicional": 0.4569
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.138
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.138
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.138
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.087
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0831
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0799
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0778
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "belgium",
+            "nombre": "Bélgica",
+            "codigo": "BEL",
+            "bandera": "🇧🇪",
+            "flag_url": "https://flagcdn.com/w80/be.png",
+            "rating": 1878
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "belgium",
+            "nombre": "Bélgica",
+            "codigo": "BEL",
+            "bandera": "🇧🇪",
+            "flag_url": "https://flagcdn.com/w80/be.png",
+            "rating": 1878
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "belgium",
+          "nombre": "Bélgica",
+          "codigo": "BEL",
+          "bandera": "🇧🇪",
+          "flag_url": "https://flagcdn.com/w80/be.png",
+          "rating": 1878
+        },
+        "etiqueta": "duelo igualado",
+        "analisis": "Bélgica aparece con más opciones de clasificarse. El modelo estima 1.43-1.28 xG a 90 minutos y 1.55-1.39 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Bélgica gana el 39.0%, el empate aparece en el 28.9% y Senegal gana el 32.1%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:28:17+00:00"
+    },
+    "m89": {
+      "id": "m89",
+      "col": 2,
+      "row": 3,
+      "label": "GM89",
+      "a": "paraguay",
+      "b": "france",
+      "next": "m97",
+      "nextSlot": "a",
+      "scoreA": 0,
+      "scoreB": 2,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 0,
+      "totalB": 2,
+      "penA": null,
+      "penB": null,
+      "winner": "france",
+      "method": "90 minutos",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "paraguay",
+          "nombre": "Paraguay",
+          "codigo": "PAR",
+          "bandera": "🇵🇾",
+          "flag_url": "https://flagcdn.com/w80/py.png",
+          "rating": 1681
+        },
+        "equipo_b": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "xg": {
+          "a": 0.53,
+          "b": 2.17
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 0.53,
+            "b": 2.17
+          },
+          "prorroga_condicional": {
+            "a": 0.16,
+            "b": 0.65
+          },
+          "total_eliminatoria_esperado": {
+            "a": 0.56,
+            "b": 2.29
+          },
+          "diferencia_90": -1.64,
+          "diferencia_total": -1.73,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.0665,
+          "empate": 0.19,
+          "b": 0.7435
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.1211,
+          "clasifica_b": 0.8789,
+          "prorroga": 0.19,
+          "gana_prorroga_a_condicional": 0.0806,
+          "empate_prorroga_condicional": 0.4924,
+          "gana_prorroga_b_condicional": 0.427,
+          "penaltis": 0.0935,
+          "penaltis_a_condicional": 0.42,
+          "penaltis_b_condicional": 0.58
+        },
+        "marcador_mas_probable": {
+          "a": 0,
+          "b": 2,
+          "probabilidad": 0.1583
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 0,
+          "b": 2,
+          "probabilidad": 0.1583
+        },
+        "marcadores_top": [
+          {
+            "a": 0,
+            "b": 2,
+            "probabilidad": 0.1583
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.1358
+          },
+          {
+            "a": 0,
+            "b": 3,
+            "probabilidad": 0.1145
+          },
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.0874
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0839
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 0,
+          "goles_90_b": 2,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 0,
+          "total_b": 2,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "france",
+            "nombre": "Francia",
+            "codigo": "FRA",
+            "bandera": "🇫🇷",
+            "flag_url": "https://flagcdn.com/w80/fr.png",
+            "rating": 2009
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 0,
+          "goles_90_b": 2,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 0,
+          "total_b": 2,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "france",
+            "nombre": "Francia",
+            "codigo": "FRA",
+            "bandera": "🇫🇷",
+            "flag_url": "https://flagcdn.com/w80/fr.png",
+            "rating": 2009
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Francia aparece con más opciones de clasificarse. El modelo estima 0.53-2.17 xG a 90 minutos y 0.56-2.29 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Paraguay gana el 6.7%, el empate aparece en el 19.0% y Francia gana el 74.4%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:02+00:00"
+    },
+    "m90": {
+      "id": "m90",
+      "col": 2,
+      "row": 9,
+      "label": "GM90",
+      "a": "canada",
+      "b": "morocco",
+      "next": "m97",
+      "nextSlot": "b",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 1,
+      "totalA": 1,
+      "totalB": 2,
+      "penA": null,
+      "penB": null,
+      "winner": "morocco",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "canada",
+          "nombre": "Canadá",
+          "codigo": "CAN",
+          "bandera": "🇨🇦",
+          "flag_url": "https://flagcdn.com/w80/ca.png",
+          "rating": 1740
+        },
+        "equipo_b": {
+          "slug": "morocco",
+          "nombre": "Marruecos",
+          "codigo": "MAR",
+          "bandera": "🇲🇦",
+          "flag_url": "https://flagcdn.com/w80/ma.png",
+          "rating": 1874
+        },
+        "xg": {
+          "a": 1.02,
+          "b": 1.69
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.02,
+            "b": 1.69
+          },
+          "prorroga_condicional": {
+            "a": 0.3,
+            "b": 0.51
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.1,
+            "b": 1.82
+          },
+          "diferencia_90": -0.67,
+          "diferencia_total": -0.72,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.2127,
+          "empate": 0.2716,
+          "b": 0.5157
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.3178,
+          "clasifica_b": 0.6822,
+          "prorroga": 0.2716,
+          "gana_prorroga_a_condicional": 0.1702,
+          "empate_prorroga_condicional": 0.5161,
+          "gana_prorroga_b_condicional": 0.3137,
+          "penaltis": 0.1402,
+          "penaltis_a_condicional": 0.42,
+          "penaltis_b_condicional": 0.58
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1299
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1299
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1299
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.0983
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0968
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "probabilidad": 0.0954
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0822
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 1,
+          "total_a": 1,
+          "total_b": 2,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "morocco",
+            "nombre": "Marruecos",
+            "codigo": "MAR",
+            "bandera": "🇲🇦",
+            "flag_url": "https://flagcdn.com/w80/ma.png",
+            "rating": 1874
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 1,
+          "total_a": 1,
+          "total_b": 2,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "morocco",
+            "nombre": "Marruecos",
+            "codigo": "MAR",
+            "bandera": "🇲🇦",
+            "flag_url": "https://flagcdn.com/w80/ma.png",
+            "rating": 1874
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "morocco",
+          "nombre": "Marruecos",
+          "codigo": "MAR",
+          "bandera": "🇲🇦",
+          "flag_url": "https://flagcdn.com/w80/ma.png",
+          "rating": 1874
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Marruecos aparece con más opciones de clasificarse. El modelo estima 1.02-1.69 xG a 90 minutos y 1.10-1.82 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Canadá gana el 21.3%, el empate aparece en el 27.2% y Marruecos gana el 51.6%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:05+00:00"
+    },
+    "m93": {
+      "id": "m93",
+      "col": 2,
+      "row": 15,
+      "label": "GM93",
+      "next": "m98",
+      "nextSlot": "a",
+      "a": "portugal",
+      "b": "spain",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 3,
+      "penB": 4,
+      "winner": "spain",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "portugal",
+          "nombre": "Portugal",
+          "codigo": "POR",
+          "bandera": "🇵🇹",
+          "flag_url": "https://flagcdn.com/w80/pt.png",
+          "rating": 1945
+        },
+        "equipo_b": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "xg": {
+          "a": 1.19,
+          "b": 1.51
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.19,
+            "b": 1.51
+          },
+          "prorroga_condicional": {
+            "a": 0.36,
+            "b": 0.45
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.29,
+            "b": 1.64
+          },
+          "diferencia_90": -0.33,
+          "diferencia_total": -0.35,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.2826,
+          "empate": 0.2856,
+          "b": 0.4317
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.4036,
+          "clasifica_b": 0.5964,
+          "prorroga": 0.2856,
+          "gana_prorroga_a_condicional": 0.2052,
+          "empate_prorroga_condicional": 0.5198,
+          "gana_prorroga_b_condicional": 0.275,
+          "penaltis": 0.1485,
+          "penaltis_a_condicional": 0.42,
+          "penaltis_b_condicional": 0.58
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1364
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1364
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1364
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0913
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.086
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0829
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "probabilidad": 0.0769
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "etiqueta": "partido abierto",
+        "analisis": "España aparece con más opciones de clasificarse. El modelo estima 1.19-1.51 xG a 90 minutos y 1.29-1.64 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Portugal gana el 28.3%, el empate aparece en el 28.6% y España gana el 43.2%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:28:40+00:00"
+    },
+    "m94": {
+      "id": "m94",
+      "col": 2,
+      "row": 21,
+      "label": "GM94",
+      "next": "m98",
+      "nextSlot": "b",
+      "a": "usa",
+      "b": "belgium",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 3,
+      "penB": 4,
+      "winner": "belgium",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "usa",
+          "nombre": "Estados Unidos",
+          "codigo": "USA",
+          "bandera": "🇺🇸",
+          "flag_url": "https://flagcdn.com/w80/us.png",
+          "rating": 1826
+        },
+        "equipo_b": {
+          "slug": "belgium",
+          "nombre": "Bélgica",
+          "codigo": "BEL",
+          "bandera": "🇧🇪",
+          "flag_url": "https://flagcdn.com/w80/be.png",
+          "rating": 1878
+        },
+        "xg": {
+          "a": 1.22,
+          "b": 1.48
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.22,
+            "b": 1.48
+          },
+          "prorroga_condicional": {
+            "a": 0.37,
+            "b": 0.44
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.33,
+            "b": 1.61
+          },
+          "diferencia_90": -0.26,
+          "diferencia_total": -0.28,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.2967,
+          "empate": 0.2872,
+          "b": 0.4161
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.4212,
+          "clasifica_b": 0.5788,
+          "prorroga": 0.2872,
+          "gana_prorroga_a_condicional": 0.212,
+          "empate_prorroga_condicional": 0.5202,
+          "gana_prorroga_b_condicional": 0.2678,
+          "penaltis": 0.1494,
+          "penaltis_a_condicional": 0.4257,
+          "penaltis_b_condicional": 0.5743
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1371
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1371
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1371
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0898
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.0837
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.083
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.074
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "belgium",
+            "nombre": "Bélgica",
+            "codigo": "BEL",
+            "bandera": "🇧🇪",
+            "flag_url": "https://flagcdn.com/w80/be.png",
+            "rating": 1878
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "belgium",
+            "nombre": "Bélgica",
+            "codigo": "BEL",
+            "bandera": "🇧🇪",
+            "flag_url": "https://flagcdn.com/w80/be.png",
+            "rating": 1878
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "belgium",
+          "nombre": "Bélgica",
+          "codigo": "BEL",
+          "bandera": "🇧🇪",
+          "flag_url": "https://flagcdn.com/w80/be.png",
+          "rating": 1878
+        },
+        "etiqueta": "partido abierto",
+        "analisis": "Bélgica aparece con más opciones de clasificarse. El modelo estima 1.22-1.48 xG a 90 minutos y 1.33-1.61 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Estados Unidos gana el 29.7%, el empate aparece en el 28.7% y Bélgica gana el 41.6%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:28:57+00:00"
+    },
+    "m97": {
+      "id": "m97",
+      "col": 3,
+      "row": 6,
+      "label": "GM97",
+      "next": "m101",
+      "nextSlot": "a",
+      "a": "france",
+      "b": "morocco",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "france",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "equipo_b": {
+          "slug": "morocco",
+          "nombre": "Marruecos",
+          "codigo": "MAR",
+          "bandera": "🇲🇦",
+          "flag_url": "https://flagcdn.com/w80/ma.png",
+          "rating": 1874
+        },
+        "xg": {
+          "a": 1.69,
+          "b": 1.01
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.69,
+            "b": 1.01
+          },
+          "prorroga_condicional": {
+            "a": 0.51,
+            "b": 0.3
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.82,
+            "b": 1.09
+          },
+          "diferencia_90": 0.67,
+          "diferencia_total": 0.73,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.5169,
+          "empate": 0.2713,
+          "b": 0.2117
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6834,
+          "clasifica_b": 0.3166,
+          "prorroga": 0.2713,
+          "gana_prorroga_a_condicional": 0.3142,
+          "empate_prorroga_condicional": 0.516,
+          "gana_prorroga_b_condicional": 0.1697,
+          "penaltis": 0.14,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1298
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1298
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1298
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0985
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0969
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.0957
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0821
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "france",
+            "nombre": "Francia",
+            "codigo": "FRA",
+            "bandera": "🇫🇷",
+            "flag_url": "https://flagcdn.com/w80/fr.png",
+            "rating": 2009
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "france",
+            "nombre": "Francia",
+            "codigo": "FRA",
+            "bandera": "🇫🇷",
+            "flag_url": "https://flagcdn.com/w80/fr.png",
+            "rating": 2009
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Francia aparece con más opciones de clasificarse. El modelo estima 1.69-1.01 xG a 90 minutos y 1.82-1.09 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Francia gana el 51.7%, el empate aparece en el 27.1% y Marruecos gana el 21.2%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:27+00:00"
+    },
+    "m98": {
+      "id": "m98",
+      "col": 3,
+      "row": 18,
+      "label": "GM98",
+      "next": "m101",
+      "nextSlot": "b",
+      "a": "spain",
+      "b": "belgium",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "spain",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "equipo_b": {
+          "slug": "belgium",
+          "nombre": "Bélgica",
+          "codigo": "BEL",
+          "bandera": "🇧🇪",
+          "flag_url": "https://flagcdn.com/w80/be.png",
+          "rating": 1878
+        },
+        "xg": {
+          "a": 1.68,
+          "b": 1.02
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.68,
+            "b": 1.02
+          },
+          "prorroga_condicional": {
+            "a": 0.5,
+            "b": 0.31
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.82,
+            "b": 1.1
+          },
+          "diferencia_90": 0.66,
+          "diferencia_total": 0.71,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.5133,
+          "empate": 0.2721,
+          "b": 0.2146
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6798,
+          "clasifica_b": 0.3202,
+          "prorroga": 0.2721,
+          "gana_prorroga_a_condicional": 0.3125,
+          "empate_prorroga_condicional": 0.5163,
+          "gana_prorroga_b_condicional": 0.1712,
+          "penaltis": 0.1405,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1301
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1301
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1301
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0979
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0967
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.0948
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0822
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "España aparece con más opciones de clasificarse. El modelo estima 1.68-1.02 xG a 90 minutos y 1.82-1.10 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, España gana el 51.3%, el empate aparece en el 27.2% y Bélgica gana el 21.5%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:31+00:00"
+    },
+    "m101": {
+      "id": "m101",
+      "col": 4,
+      "row": 12,
+      "label": "GM101",
+      "next": "m104",
+      "nextSlot": "a",
+      "loserNext": "m103",
+      "loserSlot": "a",
+      "b": "spain",
+      "a": "france",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 3,
+      "penB": 4,
+      "winner": "spain",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "equipo_b": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "xg": {
+          "a": 1.35,
+          "b": 1.35
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.35,
+            "b": 1.35
+          },
+          "prorroga_condicional": {
+            "a": 0.4,
+            "b": 0.41
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.46,
+            "b": 1.47
+          },
+          "diferencia_90": -0.0,
+          "diferencia_total": -0.01,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.3538,
+          "empate": 0.29,
+          "b": 0.3561
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.4985,
+          "clasifica_b": 0.5015,
+          "prorroga": 0.29,
+          "gana_prorroga_a_condicional": 0.239,
+          "empate_prorroga_condicional": 0.5209,
+          "gana_prorroga_b_condicional": 0.2401,
+          "penaltis": 0.1511,
+          "penaltis_a_condicional": 0.4986,
+          "penaltis_b_condicional": 0.5014
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1384
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1384
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1384
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0831
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0828
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0825
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.075
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "etiqueta": "duelo igualado",
+        "analisis": "España aparece con más opciones de clasificarse. El modelo estima 1.35-1.35 xG a 90 minutos y 1.46-1.47 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Francia gana el 35.4%, el empate aparece en el 29.0% y España gana el 35.6%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:45+00:00"
+    },
+    "m104": {
+      "id": "m104",
+      "col": 5,
+      "row": 10,
+      "label": "FINAL",
+      "kind": "final",
+      "b": "england",
+      "a": "spain",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 5,
+      "penB": 4,
+      "winner": "spain",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "equipo_b": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "xg": {
+          "a": 1.39,
+          "b": 1.31
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.39,
+            "b": 1.31
+          },
+          "prorroga_condicional": {
+            "a": 0.42,
+            "b": 0.39
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.51,
+            "b": 1.42
+          },
+          "diferencia_90": 0.08,
+          "diferencia_total": 0.09,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.3747,
+          "empate": 0.2897,
+          "b": 0.3356
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.5259,
+          "clasifica_b": 0.4741,
+          "prorroga": 0.2897,
+          "gana_prorroga_a_condicional": 0.2487,
+          "empate_prorroga_condicional": 0.5209,
+          "gana_prorroga_b_condicional": 0.2304,
+          "penaltis": 0.1509,
+          "penaltis_a_condicional": 0.5244,
+          "penaltis_b_condicional": 0.4756
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1383
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1383
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1383
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0852
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0831
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.08
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0777
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "spain",
+            "nombre": "España",
+            "codigo": "ESP",
+            "bandera": "🇪🇸",
+            "flag_url": "https://flagcdn.com/w80/es.png",
+            "rating": 2010
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "spain",
+          "nombre": "España",
+          "codigo": "ESP",
+          "bandera": "🇪🇸",
+          "flag_url": "https://flagcdn.com/w80/es.png",
+          "rating": 2010
+        },
+        "etiqueta": "duelo igualado",
+        "analisis": "España aparece con más opciones de clasificarse. El modelo estima 1.39-1.31 xG a 90 minutos y 1.51-1.42 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, España gana el 37.5%, el empate aparece en el 29.0% y Inglaterra gana el 33.6%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:30:21+00:00"
+    },
+    "m103": {
+      "id": "m103",
+      "col": 5,
+      "row": 14,
+      "label": "3er Puesto",
+      "kind": "third",
+      "b": "argentina",
+      "a": "france",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 5,
+      "penB": 4,
+      "winner": "france",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "equipo_b": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "xg": {
+          "a": 1.43,
+          "b": 1.27
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.43,
+            "b": 1.27
+          },
+          "prorroga_condicional": {
+            "a": 0.43,
+            "b": 0.38
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.56,
+            "b": 1.38
+          },
+          "diferencia_90": 0.17,
+          "diferencia_total": 0.18,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.3935,
+          "empate": 0.2889,
+          "b": 0.3176
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.5502,
+          "clasifica_b": 0.4498,
+          "prorroga": 0.2889,
+          "gana_prorroga_a_condicional": 0.2574,
+          "empate_prorroga_condicional": 0.5206,
+          "gana_prorroga_b_condicional": 0.222,
+          "penaltis": 0.1504,
+          "penaltis_a_condicional": 0.5473,
+          "penaltis_b_condicional": 0.4527
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1379
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1379
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1379
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0874
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0831
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0804
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0773
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "france",
+            "nombre": "Francia",
+            "codigo": "FRA",
+            "bandera": "🇫🇷",
+            "flag_url": "https://flagcdn.com/w80/fr.png",
+            "rating": 2009
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "france",
+            "nombre": "Francia",
+            "codigo": "FRA",
+            "bandera": "🇫🇷",
+            "flag_url": "https://flagcdn.com/w80/fr.png",
+            "rating": 2009
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "france",
+          "nombre": "Francia",
+          "codigo": "FRA",
+          "bandera": "🇫🇷",
+          "flag_url": "https://flagcdn.com/w80/fr.png",
+          "rating": 2009
+        },
+        "etiqueta": "duelo igualado",
+        "analisis": "Francia aparece con más opciones de clasificarse. El modelo estima 1.43-1.27 xG a 90 minutos y 1.56-1.38 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Francia gana el 39.4%, el empate aparece en el 28.9% y Argentina gana el 31.8%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:30:14+00:00"
+    },
+    "m74": {
+      "id": "m74",
+      "col": 9,
+      "row": 1,
+      "label": "GM74",
+      "a": "brazil",
+      "b": "japan",
+      "scoreA": 2,
+      "scoreB": 1,
+      "winner": "brazil",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "90 minutos",
+      "next": "m91",
+      "nextSlot": "a"
+    },
+    "m76": {
+      "id": "m76",
+      "col": 9,
+      "row": 4,
+      "label": "GM76",
+      "a": "ivory-coast",
+      "b": "norway",
+      "scoreA": 1,
+      "scoreB": 2,
+      "winner": "norway",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "90 minutos",
+      "next": "m91",
+      "nextSlot": "b"
+    },
+    "m78": {
+      "id": "m78",
+      "col": 9,
+      "row": 7,
+      "label": "GM78",
+      "a": "mexico",
+      "b": "ecuador",
+      "scoreA": 2,
+      "scoreB": 0,
+      "winner": "mexico",
+      "locked": true,
+      "status": "real",
+      "source": "resultado real manual",
+      "method": "90 minutos",
+      "next": "m92",
+      "nextSlot": "a"
+    },
+    "m80": {
+      "id": "m80",
+      "col": 9,
+      "row": 10,
+      "label": "GM80",
+      "a": "england",
+      "b": "dr-congo",
+      "next": "m92",
+      "nextSlot": "b",
+      "scoreA": 2,
+      "scoreB": 0,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 0,
+      "penA": null,
+      "penB": null,
+      "winner": "england",
+      "method": "90 minutos",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "equipo_b": {
+          "slug": "dr-congo",
+          "nombre": "RD Congo",
+          "codigo": "COD",
+          "bandera": "🇨🇩",
+          "flag_url": "https://flagcdn.com/w80/cd.png",
+          "rating": 1650
+        },
+        "xg": {
+          "a": 2.21,
+          "b": 0.49
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 2.21,
+            "b": 0.49
+          },
+          "prorroga_condicional": {
+            "a": 0.66,
+            "b": 0.15
+          },
+          "total_eliminatoria_esperado": {
+            "a": 2.33,
+            "b": 0.52
+          },
+          "diferencia_90": 1.71,
+          "diferencia_total": 1.81,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.7595,
+          "empate": 0.1818,
+          "b": 0.0587
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.8904,
+          "clasifica_b": 0.1096,
+          "prorroga": 0.1818,
+          "gana_prorroga_a_condicional": 0.4359,
+          "empate_prorroga_condicional": 0.4898,
+          "gana_prorroga_b_condicional": 0.0743,
+          "penaltis": 0.089,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1638
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1638
+        },
+        "marcadores_top": [
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.1638
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.1389
+          },
+          {
+            "a": 3,
+            "b": 0,
+            "probabilidad": 0.1205
+          },
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.0826
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0807
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Inglaterra aparece con más opciones de clasificarse. El modelo estima 2.21-0.49 xG a 90 minutos y 2.33-0.52 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Inglaterra gana el 76.0%, el empate aparece en el 18.2% y RD Congo gana el 5.9%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:27:22+00:00"
+    },
+    "m82": {
+      "id": "m82",
+      "col": 9,
+      "row": 13,
+      "label": "GM82",
+      "a": "argentina",
+      "b": "cape-verde",
+      "next": "m95",
+      "nextSlot": "a",
+      "scoreA": 2,
+      "scoreB": 0,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 0,
+      "penA": null,
+      "penB": null,
+      "winner": "argentina",
+      "method": "90 minutos",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "equipo_b": {
+          "slug": "cape-verde",
+          "nombre": "Cabo Verde",
+          "codigo": "CPV",
+          "bandera": "🇨🇻",
+          "flag_url": "https://flagcdn.com/w80/cv.png",
+          "rating": 1650
+        },
+        "xg": {
+          "a": 2.17,
+          "b": 0.54
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 2.17,
+            "b": 0.54
+          },
+          "prorroga_condicional": {
+            "a": 0.65,
+            "b": 0.16
+          },
+          "total_eliminatoria_esperado": {
+            "a": 2.29,
+            "b": 0.57
+          },
+          "diferencia_90": 1.63,
+          "diferencia_total": 1.72,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.7413,
+          "empate": 0.191,
+          "b": 0.0676
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.8773,
+          "clasifica_b": 0.1227,
+          "prorroga": 0.191,
+          "gana_prorroga_a_condicional": 0.4258,
+          "empate_prorroga_condicional": 0.4927,
+          "gana_prorroga_b_condicional": 0.0815,
+          "penaltis": 0.0941,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1576
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.1576
+        },
+        "marcadores_top": [
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.1576
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.1354
+          },
+          {
+            "a": 3,
+            "b": 0,
+            "probabilidad": 0.1137
+          },
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.088
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0843
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "argentina",
+            "nombre": "Argentina",
+            "codigo": "ARG",
+            "bandera": "🇦🇷",
+            "flag_url": "https://flagcdn.com/w80/ar.png",
+            "rating": 1976
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "argentina",
+            "nombre": "Argentina",
+            "codigo": "ARG",
+            "bandera": "🇦🇷",
+            "flag_url": "https://flagcdn.com/w80/ar.png",
+            "rating": 1976
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Argentina aparece con más opciones de clasificarse. El modelo estima 2.17-0.54 xG a 90 minutos y 2.29-0.57 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Argentina gana el 74.1%, el empate aparece en el 19.1% y Cabo Verde gana el 6.8%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:27:35+00:00"
+    },
+    "m84": {
+      "id": "m84",
+      "col": 9,
+      "row": 16,
+      "label": "GM84",
+      "a": "australia",
+      "b": "egypt",
+      "next": "m95",
+      "nextSlot": "b",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "australia",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "australia",
+          "nombre": "Australia",
+          "codigo": "AUS",
+          "bandera": "🇦🇺",
+          "flag_url": "https://flagcdn.com/w80/au.png",
+          "rating": 1772
+        },
+        "equipo_b": {
+          "slug": "egypt",
+          "nombre": "Egipto",
+          "codigo": "EGY",
+          "bandera": "🇪🇬",
+          "flag_url": "https://flagcdn.com/w80/eg.png",
+          "rating": 1695
+        },
+        "xg": {
+          "a": 1.54,
+          "b": 1.16
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.54,
+            "b": 1.16
+          },
+          "prorroga_condicional": {
+            "a": 0.46,
+            "b": 0.35
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.67,
+            "b": 1.26
+          },
+          "diferencia_90": 0.38,
+          "diferencia_total": 0.42,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.4462,
+          "empate": 0.2839,
+          "b": 0.2699
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6117,
+          "clasifica_b": 0.3883,
+          "prorroga": 0.2839,
+          "gana_prorroga_a_condicional": 0.2816,
+          "empate_prorroga_condicional": 0.5193,
+          "gana_prorroga_b_condicional": 0.199,
+          "penaltis": 0.1474,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1356
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1356
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1356
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0925
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0881
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0828
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.08
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "australia",
+            "nombre": "Australia",
+            "codigo": "AUS",
+            "bandera": "🇦🇺",
+            "flag_url": "https://flagcdn.com/w80/au.png",
+            "rating": 1772
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "australia",
+            "nombre": "Australia",
+            "codigo": "AUS",
+            "bandera": "🇦🇺",
+            "flag_url": "https://flagcdn.com/w80/au.png",
+            "rating": 1772
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "australia",
+          "nombre": "Australia",
+          "codigo": "AUS",
+          "bandera": "🇦🇺",
+          "flag_url": "https://flagcdn.com/w80/au.png",
+          "rating": 1772
+        },
+        "etiqueta": "partido abierto",
+        "analisis": "Australia aparece con más opciones de clasificarse. El modelo estima 1.54-1.16 xG a 90 minutos y 1.67-1.26 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Australia gana el 44.6%, el empate aparece en el 28.4% y Egipto gana el 27.0%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:27:45+00:00"
+    },
+    "m86": {
+      "id": "m86",
+      "col": 9,
+      "row": 19,
+      "label": "GM86",
+      "a": "switzerland",
+      "b": "algeria",
+      "next": "m96",
+      "nextSlot": "a",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "switzerland",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "switzerland",
+          "nombre": "Suiza",
+          "codigo": "SUI",
+          "bandera": "🇨🇭",
+          "flag_url": "https://flagcdn.com/w80/ch.png",
+          "rating": 1812
+        },
+        "equipo_b": {
+          "slug": "algeria",
+          "nombre": "Argelia",
+          "codigo": "DZA",
+          "bandera": "🇩🇿",
+          "flag_url": "https://flagcdn.com/w80/dz.png",
+          "rating": 1704
+        },
+        "xg": {
+          "a": 1.62,
+          "b": 1.08
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.62,
+            "b": 1.08
+          },
+          "prorroga_condicional": {
+            "a": 0.49,
+            "b": 0.32
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.76,
+            "b": 1.17
+          },
+          "diferencia_90": 0.54,
+          "diferencia_total": 0.59,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.4839,
+          "empate": 0.278,
+          "b": 0.2381
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6505,
+          "clasifica_b": 0.3495,
+          "prorroga": 0.278,
+          "gana_prorroga_a_condicional": 0.299,
+          "empate_prorroga_condicional": 0.5178,
+          "gana_prorroga_b_condicional": 0.1832,
+          "penaltis": 0.1439,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1329
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1329
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1329
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0952
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0936
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.0882
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0825
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "switzerland",
+            "nombre": "Suiza",
+            "codigo": "SUI",
+            "bandera": "🇨🇭",
+            "flag_url": "https://flagcdn.com/w80/ch.png",
+            "rating": 1812
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "switzerland",
+            "nombre": "Suiza",
+            "codigo": "SUI",
+            "bandera": "🇨🇭",
+            "flag_url": "https://flagcdn.com/w80/ch.png",
+            "rating": 1812
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "switzerland",
+          "nombre": "Suiza",
+          "codigo": "SUI",
+          "bandera": "🇨🇭",
+          "flag_url": "https://flagcdn.com/w80/ch.png",
+          "rating": 1812
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Suiza aparece con más opciones de clasificarse. El modelo estima 1.62-1.08 xG a 90 minutos y 1.76-1.17 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Suiza gana el 48.4%, el empate aparece en el 27.8% y Argelia gana el 23.8%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:27:56+00:00"
+    },
+    "m88": {
+      "id": "m88",
+      "col": 9,
+      "row": 22,
+      "label": "GM88",
+      "a": "colombia",
+      "b": "ghana",
+      "next": "m96",
+      "nextSlot": "b",
+      "scoreA": 2,
+      "scoreB": 0,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 0,
+      "penA": null,
+      "penB": null,
+      "winner": "colombia",
+      "method": "90 minutos",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "colombia",
+          "nombre": "Colombia",
+          "codigo": "COL",
+          "bandera": "🇨🇴",
+          "flag_url": "https://flagcdn.com/w80/co.png",
+          "rating": 1878
+        },
+        "equipo_b": {
+          "slug": "ghana",
+          "nombre": "Ghana",
+          "codigo": "GHA",
+          "bandera": "🇬🇭",
+          "flag_url": "https://flagcdn.com/w80/gh.png",
+          "rating": 1659
+        },
+        "xg": {
+          "a": 1.9,
+          "b": 0.8
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.9,
+            "b": 0.8
+          },
+          "prorroga_condicional": {
+            "a": 0.57,
+            "b": 0.24
+          },
+          "total_eliminatoria_esperado": {
+            "a": 2.04,
+            "b": 0.86
+          },
+          "diferencia_90": 1.09,
+          "diferencia_total": 1.17,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.6189,
+          "empate": 0.2424,
+          "b": 0.1387
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.7782,
+          "clasifica_b": 0.2218,
+          "prorroga": 0.2424,
+          "gana_prorroga_a_condicional": 0.3626,
+          "empate_prorroga_condicional": 0.5081,
+          "gana_prorroga_b_condicional": 0.1293,
+          "penaltis": 0.1232,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.121
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 2,
+          "b": 0,
+          "probabilidad": 0.121
+        },
+        "marcadores_top": [
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.121
+          },
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1157
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.1142
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0971
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0805
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "colombia",
+            "nombre": "Colombia",
+            "codigo": "COL",
+            "bandera": "🇨🇴",
+            "flag_url": "https://flagcdn.com/w80/co.png",
+            "rating": 1878
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 2,
+          "goles_90_b": 0,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 0,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "colombia",
+            "nombre": "Colombia",
+            "codigo": "COL",
+            "bandera": "🇨🇴",
+            "flag_url": "https://flagcdn.com/w80/co.png",
+            "rating": 1878
+          },
+          "metodo": "90 minutos",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "colombia",
+          "nombre": "Colombia",
+          "codigo": "COL",
+          "bandera": "🇨🇴",
+          "flag_url": "https://flagcdn.com/w80/co.png",
+          "rating": 1878
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Colombia aparece con más opciones de clasificarse. El modelo estima 1.90-0.80 xG a 90 minutos y 2.04-0.86 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Colombia gana el 61.9%, el empate aparece en el 24.2% y Ghana gana el 13.9%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:27:53+00:00"
+    },
+    "m91": {
+      "id": "m91",
+      "col": 8,
+      "row": 3,
+      "label": "GM91",
+      "a": "brazil",
+      "b": "norway",
+      "next": "m99",
+      "nextSlot": "a",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "brazil",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "brazil",
+          "nombre": "Brasil",
+          "codigo": "BRA",
+          "bandera": "🇧🇷",
+          "flag_url": "https://flagcdn.com/w80/br.png",
+          "rating": 1955
+        },
+        "equipo_b": {
+          "slug": "norway",
+          "nombre": "Noruega",
+          "codigo": "NOR",
+          "bandera": "🇳🇴",
+          "flag_url": "https://flagcdn.com/w80/no.png",
+          "rating": 1880
+        },
+        "xg": {
+          "a": 1.54,
+          "b": 1.16
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.54,
+            "b": 1.16
+          },
+          "prorroga_condicional": {
+            "a": 0.46,
+            "b": 0.35
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.67,
+            "b": 1.26
+          },
+          "diferencia_90": 0.38,
+          "diferencia_total": 0.41,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.4438,
+          "empate": 0.2842,
+          "b": 0.272
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6091,
+          "clasifica_b": 0.3909,
+          "prorroga": 0.2842,
+          "gana_prorroga_a_condicional": 0.2805,
+          "empate_prorroga_condicional": 0.5194,
+          "gana_prorroga_b_condicional": 0.2001,
+          "penaltis": 0.1476,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1357
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1357
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1357
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0923
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0877
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0828
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.0794
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "brazil",
+            "nombre": "Brasil",
+            "codigo": "BRA",
+            "bandera": "🇧🇷",
+            "flag_url": "https://flagcdn.com/w80/br.png",
+            "rating": 1955
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "brazil",
+            "nombre": "Brasil",
+            "codigo": "BRA",
+            "bandera": "🇧🇷",
+            "flag_url": "https://flagcdn.com/w80/br.png",
+            "rating": 1955
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "brazil",
+          "nombre": "Brasil",
+          "codigo": "BRA",
+          "bandera": "🇧🇷",
+          "flag_url": "https://flagcdn.com/w80/br.png",
+          "rating": 1955
+        },
+        "etiqueta": "partido abierto",
+        "analisis": "Brasil aparece con más opciones de clasificarse. El modelo estima 1.54-1.16 xG a 90 minutos y 1.67-1.26 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Brasil gana el 44.4%, el empate aparece en el 28.4% y Noruega gana el 27.2%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:10+00:00"
+    },
+    "m92": {
+      "id": "m92",
+      "col": 8,
+      "row": 9,
+      "label": "GM92",
+      "a": "mexico",
+      "next": "m99",
+      "nextSlot": "b",
+      "b": "england",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 1,
+      "totalA": 1,
+      "totalB": 2,
+      "penA": null,
+      "penB": null,
+      "winner": "england",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "mexico",
+          "nombre": "México",
+          "codigo": "MEX",
+          "bandera": "🇲🇽",
+          "flag_url": "https://flagcdn.com/w80/mx.png",
+          "rating": 1834
+        },
+        "equipo_b": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "xg": {
+          "a": 0.95,
+          "b": 1.75
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 0.95,
+            "b": 1.75
+          },
+          "prorroga_condicional": {
+            "a": 0.29,
+            "b": 0.52
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.03,
+            "b": 1.89
+          },
+          "diferencia_90": -0.79,
+          "diferencia_total": -0.86,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.1894,
+          "empate": 0.2643,
+          "b": 0.5463
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.2882,
+          "clasifica_b": 0.7118,
+          "prorroga": 0.2643,
+          "gana_prorroga_a_condicional": 0.1579,
+          "empate_prorroga_condicional": 0.5142,
+          "gana_prorroga_b_condicional": 0.3279,
+          "penaltis": 0.1359,
+          "penaltis_a_condicional": 0.42,
+          "penaltis_b_condicional": 0.58
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1264
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1264
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1264
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.1029
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "probabilidad": 0.1026
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0977
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0818
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 1,
+          "total_a": 1,
+          "total_b": 2,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 1,
+          "total_a": 1,
+          "total_b": 2,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Inglaterra aparece con más opciones de clasificarse. El modelo estima 0.95-1.75 xG a 90 minutos y 1.03-1.89 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, México gana el 18.9%, el empate aparece en el 26.4% y Inglaterra gana el 54.6%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:15+00:00"
+    },
+    "m95": {
+      "id": "m95",
+      "col": 8,
+      "row": 15,
+      "label": "GM95",
+      "next": "m100",
+      "nextSlot": "a",
+      "a": "argentina",
+      "b": "australia",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "argentina",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "equipo_b": {
+          "slug": "australia",
+          "nombre": "Australia",
+          "codigo": "AUS",
+          "bandera": "🇦🇺",
+          "flag_url": "https://flagcdn.com/w80/au.png",
+          "rating": 1772
+        },
+        "xg": {
+          "a": 1.86,
+          "b": 0.84
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.86,
+            "b": 0.84
+          },
+          "prorroga_condicional": {
+            "a": 0.56,
+            "b": 0.25
+          },
+          "total_eliminatoria_esperado": {
+            "a": 2.0,
+            "b": 0.9
+          },
+          "diferencia_90": 1.02,
+          "diferencia_total": 1.1,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.6009,
+          "empate": 0.2484,
+          "b": 0.1507
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.7623,
+          "clasifica_b": 0.2377,
+          "prorroga": 0.2484,
+          "gana_prorroga_a_condicional": 0.3539,
+          "empate_prorroga_condicional": 0.5098,
+          "gana_prorroga_b_condicional": 0.1363,
+          "penaltis": 0.1266,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1187
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1187
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1187
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.1163
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.1114
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0977
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0809
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "argentina",
+            "nombre": "Argentina",
+            "codigo": "ARG",
+            "bandera": "🇦🇷",
+            "flag_url": "https://flagcdn.com/w80/ar.png",
+            "rating": 1976
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "argentina",
+            "nombre": "Argentina",
+            "codigo": "ARG",
+            "bandera": "🇦🇷",
+            "flag_url": "https://flagcdn.com/w80/ar.png",
+            "rating": 1976
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Argentina aparece con más opciones de clasificarse. El modelo estima 1.86-0.84 xG a 90 minutos y 2.00-0.90 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Argentina gana el 60.1%, el empate aparece en el 24.8% y Australia gana el 15.1%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:19+00:00"
+    },
+    "m96": {
+      "id": "m96",
+      "col": 8,
+      "row": 21,
+      "label": "GM96",
+      "next": "m100",
+      "nextSlot": "b",
+      "b": "colombia",
+      "a": "switzerland",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 3,
+      "penB": 4,
+      "winner": "colombia",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "switzerland",
+          "nombre": "Suiza",
+          "codigo": "SUI",
+          "bandera": "🇨🇭",
+          "flag_url": "https://flagcdn.com/w80/ch.png",
+          "rating": 1812
+        },
+        "equipo_b": {
+          "slug": "colombia",
+          "nombre": "Colombia",
+          "codigo": "COL",
+          "bandera": "🇨🇴",
+          "flag_url": "https://flagcdn.com/w80/co.png",
+          "rating": 1878
+        },
+        "xg": {
+          "a": 1.19,
+          "b": 1.52
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.19,
+            "b": 1.52
+          },
+          "prorroga_condicional": {
+            "a": 0.36,
+            "b": 0.45
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.29,
+            "b": 1.64
+          },
+          "diferencia_90": -0.33,
+          "diferencia_total": -0.36,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.2816,
+          "empate": 0.2855,
+          "b": 0.4329
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.4023,
+          "clasifica_b": 0.5977,
+          "prorroga": 0.2855,
+          "gana_prorroga_a_condicional": 0.2047,
+          "empate_prorroga_condicional": 0.5198,
+          "gana_prorroga_b_condicional": 0.2755,
+          "penaltis": 0.1484,
+          "penaltis_a_condicional": 0.42,
+          "penaltis_b_condicional": 0.58
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1363
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1363
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1363
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0914
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.0861
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0829
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "probabilidad": 0.0771
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "colombia",
+            "nombre": "Colombia",
+            "codigo": "COL",
+            "bandera": "🇨🇴",
+            "flag_url": "https://flagcdn.com/w80/co.png",
+            "rating": 1878
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "colombia",
+            "nombre": "Colombia",
+            "codigo": "COL",
+            "bandera": "🇨🇴",
+            "flag_url": "https://flagcdn.com/w80/co.png",
+            "rating": 1878
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "colombia",
+          "nombre": "Colombia",
+          "codigo": "COL",
+          "bandera": "🇨🇴",
+          "flag_url": "https://flagcdn.com/w80/co.png",
+          "rating": 1878
+        },
+        "etiqueta": "partido abierto",
+        "analisis": "Colombia aparece con más opciones de clasificarse. El modelo estima 1.19-1.52 xG a 90 minutos y 1.29-1.64 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Suiza gana el 28.2%, el empate aparece en el 28.5% y Colombia gana el 43.3%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:23+00:00"
+    },
+    "m99": {
+      "id": "m99",
+      "col": 7,
+      "row": 6,
+      "label": "GM99",
+      "next": "m102",
+      "nextSlot": "a",
+      "b": "england",
+      "a": "brazil",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 3,
+      "penB": 4,
+      "winner": "england",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "brazil",
+          "nombre": "Brasil",
+          "codigo": "BRA",
+          "bandera": "🇧🇷",
+          "flag_url": "https://flagcdn.com/w80/br.png",
+          "rating": 1955
+        },
+        "equipo_b": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "xg": {
+          "a": 1.26,
+          "b": 1.45
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.26,
+            "b": 1.45
+          },
+          "prorroga_condicional": {
+            "a": 0.38,
+            "b": 0.43
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.36,
+            "b": 1.57
+          },
+          "diferencia_90": -0.19,
+          "diferencia_total": -0.21,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.312,
+          "empate": 0.2885,
+          "b": 0.3995
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.4422,
+          "clasifica_b": 0.5578,
+          "prorroga": 0.2885,
+          "gana_prorroga_a_condicional": 0.2193,
+          "empate_prorroga_condicional": 0.5206,
+          "gana_prorroga_b_condicional": 0.2601,
+          "penaltis": 0.1502,
+          "penaltis_a_condicional": 0.4455,
+          "penaltis_b_condicional": 0.5545
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1377
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1377
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1377
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.0881
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0831
+          },
+          {
+            "a": 0,
+            "b": 1,
+            "probabilidad": 0.0813
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0765
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 3,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "etiqueta": "partido abierto",
+        "analisis": "Inglaterra aparece con más opciones de clasificarse. El modelo estima 1.26-1.45 xG a 90 minutos y 1.36-1.57 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Brasil gana el 31.2%, el empate aparece en el 28.9% y Inglaterra gana el 39.9%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:38+00:00"
+    },
+    "m100": {
+      "id": "m100",
+      "col": 7,
+      "row": 18,
+      "label": "GM100",
+      "next": "m102",
+      "nextSlot": "b",
+      "a": "argentina",
+      "b": "colombia",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 1,
+      "extraB": 0,
+      "totalA": 2,
+      "totalB": 1,
+      "penA": null,
+      "penB": null,
+      "winner": "argentina",
+      "method": "prórroga",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "equipo_b": {
+          "slug": "colombia",
+          "nombre": "Colombia",
+          "codigo": "COL",
+          "bandera": "🇨🇴",
+          "flag_url": "https://flagcdn.com/w80/co.png",
+          "rating": 1878
+        },
+        "xg": {
+          "a": 1.6,
+          "b": 1.1
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.6,
+            "b": 1.1
+          },
+          "prorroga_condicional": {
+            "a": 0.48,
+            "b": 0.33
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.73,
+            "b": 1.2
+          },
+          "diferencia_90": 0.49,
+          "diferencia_total": 0.53,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.4717,
+          "empate": 0.2801,
+          "b": 0.2482
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.6381,
+          "clasifica_b": 0.3619,
+          "prorroga": 0.2801,
+          "gana_prorroga_a_condicional": 0.2933,
+          "empate_prorroga_condicional": 0.5184,
+          "gana_prorroga_b_condicional": 0.1883,
+          "penaltis": 0.1452,
+          "penaltis_a_condicional": 0.58,
+          "penaltis_b_condicional": 0.42
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1339
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1339
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1339
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0945
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0918
+          },
+          {
+            "a": 2,
+            "b": 0,
+            "probabilidad": 0.0855
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0826
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "argentina",
+            "nombre": "Argentina",
+            "codigo": "ARG",
+            "bandera": "🇦🇷",
+            "flag_url": "https://flagcdn.com/w80/ar.png",
+            "rating": 1976
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 1,
+          "goles_prorroga_b": 0,
+          "total_a": 2,
+          "total_b": 1,
+          "penaltis_a": null,
+          "penaltis_b": null,
+          "ganador": {
+            "slug": "argentina",
+            "nombre": "Argentina",
+            "codigo": "ARG",
+            "bandera": "🇦🇷",
+            "flag_url": "https://flagcdn.com/w80/ar.png",
+            "rating": 1976
+          },
+          "metodo": "prórroga",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "etiqueta": "favorito claro",
+        "analisis": "Argentina aparece con más opciones de clasificarse. El modelo estima 1.60-1.10 xG a 90 minutos y 1.73-1.20 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Argentina gana el 47.2%, el empate aparece en el 28.0% y Colombia gana el 24.8%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:42+00:00"
+    },
+    "m102": {
+      "id": "m102",
+      "col": 6,
+      "row": 12,
+      "label": "GM102",
+      "next": "m104",
+      "nextSlot": "b",
+      "loserNext": "m103",
+      "loserSlot": "b",
+      "a": "england",
+      "b": "argentina",
+      "scoreA": 1,
+      "scoreB": 1,
+      "extraA": 0,
+      "extraB": 0,
+      "totalA": 1,
+      "totalB": 1,
+      "penA": 5,
+      "penB": 4,
+      "winner": "england",
+      "method": "penaltis",
+      "simulated": true,
+      "locked": false,
+      "status": "simulado",
+      "source": "simulado",
+      "prediction": {
+        "equipo_a": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "equipo_b": {
+          "slug": "argentina",
+          "nombre": "Argentina",
+          "codigo": "ARG",
+          "bandera": "🇦🇷",
+          "flag_url": "https://flagcdn.com/w80/ar.png",
+          "rating": 1976
+        },
+        "xg": {
+          "a": 1.39,
+          "b": 1.31
+        },
+        "xg_detalle": {
+          "noventa_minutos": {
+            "a": 1.39,
+            "b": 1.31
+          },
+          "prorroga_condicional": {
+            "a": 0.42,
+            "b": 0.39
+          },
+          "total_eliminatoria_esperado": {
+            "a": 1.51,
+            "b": 1.42
+          },
+          "diferencia_90": 0.08,
+          "diferencia_total": 0.09,
+          "nota": "Los xG de prórroga son condicionales a que el partido llegue empatado al minuto 90. Los penaltis no suman xG."
+        },
+        "probabilidades_90": {
+          "a": 0.3747,
+          "empate": 0.2897,
+          "b": 0.3356
+        },
+        "probabilidades_eliminatoria": {
+          "clasifica_a": 0.5259,
+          "clasifica_b": 0.4741,
+          "prorroga": 0.2897,
+          "gana_prorroga_a_condicional": 0.2487,
+          "empate_prorroga_condicional": 0.5209,
+          "gana_prorroga_b_condicional": 0.2304,
+          "penaltis": 0.1509,
+          "penaltis_a_condicional": 0.5244,
+          "penaltis_b_condicional": 0.4756
+        },
+        "marcador_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1383
+        },
+        "marcador_puntual_mas_probable": {
+          "a": 1,
+          "b": 1,
+          "probabilidad": 0.1383
+        },
+        "marcadores_top": [
+          {
+            "a": 1,
+            "b": 1,
+            "probabilidad": 0.1383
+          },
+          {
+            "a": 2,
+            "b": 1,
+            "probabilidad": 0.0852
+          },
+          {
+            "a": 0,
+            "b": 0,
+            "probabilidad": 0.0831
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "probabilidad": 0.08
+          },
+          {
+            "a": 1,
+            "b": 0,
+            "probabilidad": 0.0777
+          }
+        ],
+        "resultado_esperado": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "simulacion": {
+          "goles_90_a": 1,
+          "goles_90_b": 1,
+          "goles_prorroga_a": 0,
+          "goles_prorroga_b": 0,
+          "total_a": 1,
+          "total_b": 1,
+          "penaltis_a": 5,
+          "penaltis_b": 4,
+          "ganador": {
+            "slug": "england",
+            "nombre": "Inglaterra",
+            "codigo": "ENG",
+            "bandera": "🏴",
+            "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+            "rating": 1993
+          },
+          "metodo": "penaltis",
+          "nota": "Resultado determinista: usa el marcador puntual más probable del modelo a 90'. Si ese marcador es empate, la eliminatoria se resuelve por prórroga o penaltis."
+        },
+        "favorito": {
+          "slug": "england",
+          "nombre": "Inglaterra",
+          "codigo": "ENG",
+          "bandera": "🏴",
+          "flag_url": "https://flagcdn.com/w80/gb-eng.png",
+          "rating": 1993
+        },
+        "etiqueta": "duelo igualado",
+        "analisis": "Inglaterra aparece con más opciones de clasificarse. El modelo estima 1.39-1.31 xG a 90 minutos y 1.51-1.42 xG esperados totales ponderando la posibilidad de prórroga. A 90 minutos, Inglaterra gana el 37.5%, el empate aparece en el 29.0% y Argentina gana el 33.6%. Al ser eliminatoria, la UI usa como base el marcador puntual más probable del modelo; si ese marcador acaba empatado, se resuelve con prórroga o penaltis de forma determinista según las probabilidades."
+      },
+      "saved_at": "2026-07-01T17:29:58+00:00"
+    }
+  }
+}
